@@ -1,0 +1,2 @@
+Execute o arquivo 0-Legacinator.exe após instalar todos os demais softwares.
+Ele é um software oficial do criador do ViGEmBus e serve para atualizar ambos os aplicativos caso você queira.

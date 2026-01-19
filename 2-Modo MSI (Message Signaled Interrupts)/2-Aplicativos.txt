@@ -1,0 +1,2 @@
+Ambos os aplicativos são iguais.
+O 3-MSI_util_v3.exe é o mais básico, já o 4-GoInterruptPolicy.exe é mais avançado. Ambos fazem a mesma coisa.
