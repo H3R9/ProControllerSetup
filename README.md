@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/9f0ede5b-db5b-40ae-a597-65acd9d760a0" width="100%" alt="ProControllerSetup Banner" />
 
-#ProControllerSetup
+# ProControllerSetup
 ### Otimização Extrema de Input Lag & Overclock de Controles
 
 [![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=for-the-badge&logo=windows)](https://github.com/H3R9/ProControllerSetup)
