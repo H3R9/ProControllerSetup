@@ -1,4 +1,4 @@
-
+<img width="2752" height="1536" alt="v1 0 - The Input Lag Killer (1000Hz Overclock)" src="https://github.com/user-attachments/assets/9f0ede5b-db5b-40ae-a597-65acd9d760a0" />
 # PAINEL DE CONTROLE - OTIMIZAÇÃO PRO GAMER (2026)
 **Pasta do Projeto**: `C:\ProControllerSetup`
 
@@ -63,3 +63,4 @@ Para ter certeza que você é um "Pro":
 - Você tem agora um setup de R$ 500,00+ rodando num controle de R$ 60,00.
 
 **Bom jogo!**
+<img width="2752" height="1536" alt="v1 0 - The Input Lag Killer (1000Hz Overclock)" src="https://github.com/user-attachments/assets/9f0ede5b-db5b-40ae-a597-65acd9d760a0" />
