@@ -1,66 +1,89 @@
-<img width="2752" height="1536" alt="v1 0 - The Input Lag Killer (1000Hz Overclock)" src="https://github.com/user-attachments/assets/9f0ede5b-db5b-40ae-a597-65acd9d760a0" />
-# PAINEL DE CONTROLE - OTIMIZAÇÃO PRO GAMER (2026)
-**Pasta do Projeto**: `C:\ProControllerSetup`
+<div align="center">
 
-Parabéns, seu plano de transformação está pronto. Siga a ordem exata abaixo para evitar conflitos.
+<img src="https://github.com/user-attachments/assets/9f0ede5b-db5b-40ae-a597-65acd9d760a0" width="100%" alt="ProControllerSetup Banner" />
 
----
+# 🎮 ProControllerSetup
+### Otimização Extrema de Input Lag & Overclock de Controles
 
-### FASE 1: OTIMIZAÇÃO DO SISTEMA (A Base)
-Antes de mexer no controle, vamos preparar o terreno (Windows) para responder instantaneamente.
+[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=for-the-badge&logo=windows)](https://github.com/H3R9/ProControllerSetup)
+[![PowerShell](https://img.shields.io/badge/Script-PowerShell-5391FE?style=for-the-badge&logo=powershell)](https://github.com/H3R9/ProControllerSetup)
+[![License](https://img.shields.io/badge/License-Open%20Source-green?style=for-the-badge)](https://github.com/H3R9/ProControllerSetup)
 
-1.  **Executar o Script de Otimização**:
-    - Abra a pasta `C:\ProControllerSetup`.
-    - Clique com o botão direito em `Otimizar_Windows_Maximo.ps1` e selecione **"Executar com o PowerShell"**.
-    - *Nota*: Se pedir permissão, digite 'S' ou 'Y'.
-    - Isso vai ajustar Energia, Registro e USBs.
-
-2.  **Modo MSI (Latência de Hardware)**:
-    - Abra o arquivo `Guia_Modo_MSI.md`.
-    - Siga os passos para baixar o utilitário e colocar sua Placa de Vídeo em modo "High Priority".
-
-3.  **REINICIE O COMPUTADOR AGORA**.
-    - As alterações acima só funcionam após o reboot.
+</div>
 
 ---
 
-### FASE 2: OVERCLOCK DO CONTROLE (A Transformação)
-Agora que o Windows está rápido, vamos turbinar o controle.
+## ⚡ Sobre o Projeto
 
-4.  **Overclock para 1000Hz**:
-    - Abra o arquivo `Guia_Overclock_Controle.md`.
-    - Siga passo-a-passo. Isso vai mudar a atualização do controle de 8ms para **1ms**.
-    - *Nota*: Se der erro ao instalar o serviço, pode ser necessário desativar o "Secure Boot" na BIOS temporariamente.
+O **ProControllerSetup** é um conjunto de ferramentas, scripts e guias projetados para transformar controles genéricos (Knup, Redragon, Ípega, etc.) em equipamentos de nível competitivo.
 
----
+**O objetivo é simples:** Reduzir o Input Lag nativo de **~8ms para 1ms estável** e otimizar o Windows para priorizar o processamento de entrada.
 
-### FASE EXTRA: MAPPER PROFISSIONAL (O Pulo do Gato)
-Para ter funções de controles de R$ 1.000 (como Anti-Deadzone e Curvas de Resposta).
-
-5.  **Instalar DS4Windows + HidHide**:
-    - Abra o arquivo `Guia_Avancado_Input_Mapper.md`.
-    - Isso esconde o driver genérico "ruim" e usa um driver emulado de alta performance.
-    - **Atenção**: Siga o passo da "Lista Branca" no HidHide com cuidado.
+### 🚀 Principais Funcionalidades
+*   **Overclock de Polling Rate:** Força a atualização do USB para 1000Hz.
+*   **Otimização de Sistema:** Script automatizado para Ajustes de Registro, Energia e USB.
+*   **Modo MSI:** Ativação de *Message Signaled Interrupts* para GPU e Controladores.
+*   **Input Mapping Avançado:** Configurações para "Anti-Deadzone" e curvas de resposta (Square Deadzone).
 
 ---
 
-### FASE 3: AJUSTE FINO (A Pegada)
-Hardware pronto. Agora é software.
+## 📦 Instalação e Uso
 
-6.  **Calibrar Deadzone**:
-    - Abra o arquivo `Calibracao_Deadzone.md`.
-    - Se você joga **Rocket League**, configure o "Square Deadzone" na Steam como ensinado.
-    - Se joga **FPS**, configure a curva de precisão.
+Recomendamos extrair o projeto na raiz do disco para evitar erros de caminho: `C:\ProControllerSetup`
+
+### 🛠️ FASE 1: Otimização do Sistema (A Base)
+Antes de mexer no hardware, preparamos o Windows para responder instantaneamente.
+
+1.  Navegue até a pasta do projeto.
+2.  Clique com o botão direito em `Otimizar_Windows_Maximo.ps1`.
+3.  Selecione **"Executar com o PowerShell"**.
+    > 📝 **Nota:** O script criará automaticamente um Ponto de Restauração antes de aplicar as mudanças.
+4.  Consulte o arquivo `Guia_Modo_MSI.md` para configurar sua GPU em modo **High Priority**.
+5.  **Reinicie o computador** para aplicar as alterações de Registro.
+
+### ⚡ FASE 2: Overclock do Controle (A Transformação)
+O passo mais importante para atingir 1ms de resposta.
+
+1.  Siga o tutorial detalhado em `Guia_Overclock_Controle.md`.
+2.  Utilize a ferramenta incluída na pasta `hidusbf`.
+    > ⚠️ **Atenção:** Em alguns sistemas modernos, pode ser necessário desativar o **Secure Boot** na BIOS temporariamente caso o driver não seja assinado.
+
+### 🎮 FASE 3: Mapper Profissional (Opcional, mas Recomendado)
+Para desbloquear funções de controles profissionais (Anti-Deadzone, Curvas Personalizadas).
+
+1.  Instale o **HidHide** e o **DS4Windows** seguindo o `Guia_Avancado_Input_Mapper.md`.
+2.  Configure o HidHide para ocultar o dispositivo genérico e evitar conflitos (Input Duplo).
+
+### 🎯 FASE 4: Ajuste Fino e Calibração
+Ajuste a sensibilidade mecânica via software.
+
+1.  Consulte `Calibracao_Deadzone.md`.
+    *   **Rocket League:** Configure *Square Deadzone* para diagonais mais rápidas.
+    *   **FPS (CoD/Valorant):** Configure curvas de precisão para mira.
 
 ---
 
-### FASE 4: VERIFICAÇÃO FINAL
-Para ter certeza que você é um "Pro":
+## 📊 Verificação de Performance
 
-- Vá em [https://dev.b7.dk/gamepadloop/](https://dev.b7.dk/gamepadloop/)
-- Gire o analógico.
-- Se aparecer **"1000Hz"** (ou perto disso) e o gráfico estiver estável... **PARABÉNS**.
-- Você tem agora um setup de R$ 500,00+ rodando num controle de R$ 60,00.
+Para confirmar se o overclock foi aplicado com sucesso:
 
-**Bom jogo!**
-<img width="2752" height="1536" alt="v1 0 - The Input Lag Killer (1000Hz Overclock)" src="https://github.com/user-attachments/assets/9f0ede5b-db5b-40ae-a597-65acd9d760a0" />
+1. Acesse [GamepadLoop Polling Rate Test](https://dev.b7.dk/gamepadloop/).
+2. Mova os analógicos rapidamente em círculos.
+3. O objetivo é obter uma taxa de **1000Hz** com baixa variação.
+
+---
+
+## ⚠️ Disclaimer
+
+Este projeto envolve alterações no Registro do Windows e Overclock de portas USB. Embora testado exaustivamente para estabilidade:
+*   Use por sua conta e risco.
+*   Sempre mantenha o Ponto de Restauração criado pelo script.
+*   O overclock de 1000Hz pode não ser estável em todas as portas USB (prefira portas traseiras USB 3.0).
+
+---
+
+<div align="center">
+
+**Gostou do projeto? Deixe uma ⭐ no repositório!**
+
+</div>
