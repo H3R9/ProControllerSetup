@@ -11,12 +11,19 @@ Antes de tudo, instale estes dois drivers (busque no Google/GitHub):
 2.  **HidHide Setup**: O "escudo" que esconde o controle genérico para jogos não ficarem confusos com duplo comando.
 
 ## Passo 2: Configurando o HidHide (Crucial)
+O HidHide funciona como um segurança. Ele impede que jogos vejam o controle Genérico, mas precisamos deixar o DS4Windows ver.
+
 1.  Abra o "HidHide Configuration Client".
-2.  Vá na aba **Devices**.
-3.  Desconecte e reconecte seu controle Knup. Identifique qual linha aparece.
-4.  **Marque a caixa vermelha "Lock"** ao lado do seu controle Knup.
-5.  Em baixo, marque a caixa **"Enable Device Hiding"**.
-    *   *Efeito*: Agora o Windows "não vê" mais o controle genérico. Isso evita Input Lag duplo.
+2.  **Aba Applications (Lista Branca)**:
+    - Clique no botão "+" (Plus).
+    - Navegue até a pasta onde instalou o DS4Windows.
+    - Selecione o `DS4Windows.exe`.
+    - *Isso garante que o DS4Windows continue vendo o controle mesmo quando escondido.*
+3.  **Aba Devices (Dispositivos)**:
+    - Desconecte e reconecte seu controle Knup. Identifique qual linha aparece.
+    - **Marque a caixa vermelha "Lock"** ao lado do seu controle Knup.
+    - Em baixo, marque a caixa **"Enable Device Hiding"**.
+    - *Efeito*: O Windows e Jogos não veem mais o Knup. Apenas o DS4Windows vê (graças ao passo anterior).
 
 ## Passo 3: DS4Windows (O Cérebro)
 1.  Baixe o **DS4Windows (Ryochan7)**.

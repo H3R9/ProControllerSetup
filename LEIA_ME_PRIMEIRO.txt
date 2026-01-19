@@ -29,7 +29,7 @@ Agora que o Windows está rápido, vamos turbinar o controle.
 4.  **Overclock para 1000Hz**:
     - Abra o arquivo `Guia_Overclock_Controle.md`.
     - Siga passo-a-passo. Isso vai mudar a atualização do controle de 8ms para **1ms**.
-    - *Este é o passo mais importante de todos.*
+    - *Nota*: Se der erro ao instalar o serviço, pode ser necessário desativar o "Secure Boot" na BIOS temporariamente.
 
 ---
 
@@ -39,14 +39,14 @@ Para ter funções de controles de R$ 1.000 (como Anti-Deadzone e Curvas de Resp
 5.  **Instalar DS4Windows + HidHide**:
     - Abra o arquivo `Guia_Avancado_Input_Mapper.md`.
     - Isso esconde o driver genérico "ruim" e usa um driver emulado de alta performance.
-    - Obrigatório para quem quer usar "Square Deadzone" e ter 0 de conflito em jogos.
+    - **Atenção**: Siga o passo da "Lista Branca" no HidHide com cuidado.
 
 ---
 
 ### FASE 3: AJUSTE FINO (A Pegada)
 Hardware pronto. Agora é software.
 
-5.  **Calibrar Deadzone**:
+6.  **Calibrar Deadzone**:
     - Abra o arquivo `Calibracao_Deadzone.md`.
     - Se você joga **Rocket League**, configure o "Square Deadzone" na Steam como ensinado.
     - Se joga **FPS**, configure a curva de precisão.
